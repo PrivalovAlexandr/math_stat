@@ -33,7 +33,7 @@ def normal_quest6(number_list:list):
 
     print('Вариационный ряд вида [count, p*]:')
     pprint(range_list)
-    print(f'Общее количество значений: {len(number_list)}\n--------------------')
+    print(f'Объём: {len(number_list)}\n--------------------')
 
     sum = 0
     for i in range_list:
@@ -73,7 +73,7 @@ def normal_quest6(number_list:list):
 #[173, 177],
 #[177, 181]]
 
-#   вероятность каждого интервала    
+#   относительная частота каждого интервала    
 #p_list = [
 #    0.06,
 #    0.19,
